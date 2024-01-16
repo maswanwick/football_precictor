@@ -1,0 +1,19 @@
+,Week,Date,Opponent,Result,Record,Venue,Recap,team,weather_condition,temp_f,time,city,state,year
+0,1,September 11,at Washington Commanders,L 22–28,0–1,FedExField,Recap,Jacksonville Jaguars,Cloudy,74,12:00,Landover,Maryland,2022
+1,2,September 18,Indianapolis Colts,W 24–0,1–1,TIAA Bank Field,Recap,Jacksonville Jaguars,Cloudy,78,12:00,Jacksonville,Florida,2022
+2,3,September 25,at Los Angeles Chargers,W 38–10,2–1,SoFi Stadium,Recap,Jacksonville Jaguars,,81,15:05,Inglewood,California,2022
+3,4,October 2,at Philadelphia Eagles,L 21–29,2–2,Lincoln Financial Field,Recap,Jacksonville Jaguars,Rain,59,12:00,Philadelphia,Pennsylvania,2022
+4,5,October 9,Houston Texans,L 6–13,2–3,TIAA Bank Field,Recap,Jacksonville Jaguars,Partly cloudy and sunny,80,12:00,Jacksonville,Florida,2022
+5,6,October 16,at Indianapolis Colts,L 27–34,2–4,Lucas Oil Stadium,Recap,Jacksonville Jaguars,Sunny,62,12:00,Indianapolis,Indiana,2022
+6,7,October 23,New York Giants,L 17–23,2–5,TIAA Bank Field,Recap,Jacksonville Jaguars,Sunny,71,12:00,Jacksonville,Florida,2022
+7,8,October 30,Denver Broncos,L 17–21,2–6,Wembley Stadium (London),Recap,Jacksonville Jaguars,Mostly cloudy,61,12:30,London,England,2022
+8,9,November 6,Las Vegas Raiders,W 27–20,3–6,TIAA Bank Field,Recap,Jacksonville Jaguars,,81,13:00,Jacksonville,Florida,2022
+9,10,November 13,at Kansas City Chiefs,L 17–27,3–7,Arrowhead Stadium,Recap,Jacksonville Jaguars,,33,13:00,Kansas City,Missouri,2022
+10,11,Bye,Bye,Bye,Bye,Bye,Bye,Jacksonville Jaguars,,,,,,2022
+11,12,November 27,Baltimore Ravens,W 28–27,4–7,TIAA Bank Field,Recap,Jacksonville Jaguars,,74,13:25,Jacksonville,Florida,2022
+12,13,December 4,at Detroit Lions,L 14–40,4–8,Ford Field,Recap,Jacksonville Jaguars,None (indoor stadium),72,13:00,Detroit,Michigan,2022
+13,14,December 11,at Tennessee Titans,W 36–22,5–8,Nissan Stadium,Recap,Jacksonville Jaguars,Cloudy,50,13:00,Nashville,Tennessee,2022
+14,15,December 18,Dallas Cowboys,W 40–34 (OT),6–8,TIAA Bank Field,Recap,Jacksonville Jaguars,Sunny,51,13:00,Jacksonville,Florida,2022
+15,16,December 22,at New York Jets,W 19–3,7–8,MetLife Stadium,Recap,Jacksonville Jaguars,Rain,45,20:15,East Rutherford,New Jersey,2022
+16,17,January 1,at Houston Texans,W 31–3,8–8,NRG Stadium,Recap,Jacksonville Jaguars,None (retractable roof closed),72,13:00,Houston,Texas,2022
+17,18,January 7,Tennessee Titans,W 20–16,9–8,TIAA Bank Field,Recap,Jacksonville Jaguars,,59,20:15,Jacksonville,Florida,2022

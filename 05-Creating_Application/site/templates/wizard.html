@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NFL Matchup Predictor</title>
+  
+    <!-- Font CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/wizard.css">
+
+    
+</head>
+
+<body>
+    <form id="regForm">
+        <div class="tab">
+            <h1>Welcome to the NFL Matchup Predictor</h1>
+            <img src="static/img/nfl_logo.png">
+        </div>
+        
+        <div class="tab">
+            <h1>Home Team Data</h1>
+            
+            Home Team:
+            <select id="selHomeTeams"></select>
+            <p></p>
+            
+            Wins:
+            <input id="txtHomeWins">
+            <p></p>
+            
+            Losses:
+            <input id="txtHomeLosses">
+            <p></p>
+            
+            Current Streak:
+            <p></p>
+            <input type="radio" id="optHomeWin" value="W" name="home_streak" class="radio">
+            <label for="optHomeWin">Win</label>
+            <input type="radio" id="optHomeLoss" value="L" name="home_streak" class="radio">
+            <label for="optHomeLoss">Loss</label>
+            <input id="txtHomeStreak">
+            <p></p>
+            
+            Avg Points For:
+            <input id="txtHomePtsFor">
+            <p></p>
+
+            Avg Points Against:
+            <input id="txtHomePtsAgainst">
+            <p></p>
+          </div>
+
+        <div class="tab">
+            <h1>Away Team Data</h1>
+            
+            Away Team:
+            <select id="selAwayTeams"></select>
+            <p></p>
+
+            Wins:
+            <input id="txtAwayWins">
+            <p></p>
+
+            Losses:
+            <input id="txtAwayLosses">
+            <p></p>
+
+            Current Streak:
+            <p></p>
+            <input type="radio" id="optAwayWin" value="W" name="away_streak">
+            <label for="optAwayWin">Win</label>
+            <input type="radio" id="optAwayLoss" value="L" name="away_streak">
+            <label for="optAwayLoss">Loss</label>
+            <input id="txtAwayStreak">
+            <p></p>
+
+            Avg Points For:
+            <input id="txtAwayPtsFor">
+            <p></p>
+
+            Avg Points Against:
+            <input id="txtAwayPtsAgainst">
+            <p></p>
+          </div>
+        </div>
+        <div class="tab">
+            <h1>Event Details:</h1>
+            
+            Venue:
+            <select id="selVenues"></select>
+            <p></p>
+
+            City:
+            <select id="selCities"></select>
+            <p></p>
+
+            State:
+            <select id="selStates"></select>
+            <p></p>
+
+            Month:
+            <select id="selMonths"></select>
+            <p></p>
+
+            Season Week:
+            <input id="txtWeekNum">
+            <p></p>
+
+            Kickoff:
+            <select id="selTimes"></select>
+            <p></p>
+
+            Weather Conditions:
+            <select id="selWeather"></select>
+            <p></p>
+
+            Temperature (F):
+            <input id="txtTemp">
+            <p></p>
+        </div>
+        <div style="overflow:auto;" id="navButtons">
+          <div style="float:right;">
+            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+          </div>
+        </div>
+        <!-- Circles which indicates the steps of the form: -->
+        <div style="text-align:center;margin-top:40px;" id="navIndicators">
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+        </div>
+        <div id="divResult" style="display: none;">
+          <h1>Result:</h1>
+          <img id="teamLogo">
+          <button type="button" id="reload" onclick="location.reload()">New Matchup</button>
+        </div>
+      </form>
+    
+    
+    <!-- D3 JavaScript -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="static/js/wizard.js"></script>
+    <script type="text/javascript" src="static/js/logic.js"></script>
+
+</body>
+
+</html>
